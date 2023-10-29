@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.grid-item {
+    border-radius: 7px;
+    border: 1px solid #c7c7d0;
+    padding: 2px;
+}
+
+.cluster-name {
+    font-size: 1.15em;
+    color: #ffffff;
+    line-height: 38px;
+    padding-left: 10px;
+}
+
+.cluster-info {
+    display: inline-flex;
+    width: 100%;
+    padding: 0;
+}
+
+.cluster-type {
+    font-size: 1em;
+    color: #444444;
+}
+
+.host-os {
+    margin-left: 10px;
+}
+
+.monitoring-date {
+    float: right;
+    margin-right: 9px;
+    background: #eee;
+    padding: 3px 10px 3px 10px;
+    margin-top: -6px;
+    border-radius: 5px;
+}
+
+.dot-bullet {
+    width: inherit;
+    margin: 17px 0 5px 0;
+    font-size: 1em;
+}
+
+.dot-bullet i {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    background: url("images/dotBullet.png") center no-repeat;
+}
+
+.nodehost {
+    padding-left: 20px;
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.component-stat {
+    padding-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-circle:before {
+    content: "\2588";
+}
+
+.component-stat .concerning {
+    color: #ffa83e;
+}
+
+.component-stat {
+    padding-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.activity {
+    opacity: 1;
+}
+
+.standby {
+    color: grey !important;
+    opacity: .5;
+}
+
+.nodehost [class^=host] {
+    padding: 0 4px;
+    background-color: #dedede;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.nodehost > div {
+    height: 22px;
+}
+
+.nodehost > div .value {
+    font-size: 1em;
+    color: #323844;
+    margin-left: 10px;
+}
+
+.host-info .host-info-box {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 0 7px 0;
+}
+
+.host-info .host-info-box {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 0 7px 0;
+}
+
+.host-info-box > div .value {
+    font-size: 1em;
+    color: #202838;
+    margin-right: 5px;
+}
+
+.host-info .host-info-box > div {
+    text-align: left;
+}
+
+.host-info .host-info-box > div .unit {
+    font-size: 0.9em;
+    color: #adadad;
+}
+
+cluster-box .percent {
+    text-align: center;
+}
+
+.percent {
+    min-width: 250px;
+}
+
+.percent > div {
+    height: 18px;
+    border-radius: 50px;
+}
+
+.cluster-box .percent .percent-bar {
+    margin: 0px 20px;
+}
+
+.percent .percent-bar {
+    background-color: #dedede;
+}
+
+.percent-bar > div {
+    transition-property: width;
+    transition-duration: 300ms;
+    height: 18px;
+    padding: 0 3px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: right;
+    font-size: 1em;
+    line-height: 18px;
+}
+
+.percent .percent-value {
+    flex-direction: row;
+    align-self: center;
+    text-align: center;
+    color: #050a15;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 7px 0 0 0;
+}
+
+.host-info {
+    text-align: center;
+    width: 100%;
+}
+
+.host-info td > div {
+    border: 3px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.host-info .cpu {
+    padding: 0px 7px 0 20px;
+}
+
+.host-info .cpu i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 15px;
+    background: url("images/dotBullet.png") no-repeat;
+}
+
+.host-info .mem i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 15px;
+    background: url("images/dotBullet.png") no-repeat;
+}
+
+.host-info .host-cpu-bar {
+    background-color: #dedede;
+    margin: 10px;
+}
+
+.host-cpu-bar > div {
+    height: 6px;
+    border-radius: 3px;
+    transition-property: width;
+    transition-duration: 300ms;
+}
+
+td, th {
+    font-size: 13px;
+    font-family: 'Noto Sans', 'NotoSans-Regular', 'NotoSans-Medium', 'NotoSans-Bold';
+}
+
+.service-boxes {
+    padding: 0px 10px;
+}
+
+.status-box span[class^=service-stat-] {
+    display: block;
+    background-size: 28px 28px;
+    width: 28px;
+    height: 28px;
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.status-box {
+    border-radius: 3px;
+    display: inline-block;
+    margin: 2px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.status-box.concerning {
+    color: black;
+    background-color: #DDF5CA;
+}
+
+.status-box.warning {
+    color: black;
+    background-color: #FBEFB5;
+}
+
+.status-box.critical {
+    color: black;
+    background-color: #FF0000;
+}
+
+.status-box.none {
+    color: black;
+    background-color: #e2e2e2;
+}
+
+.service-stat-hdfs {
+    background: url("images/hdfs.png") no-repeat;
+}
+
+.service-stat-yarn {
+    background: url("images/yarn.png") no-repeat;
+}
+
+.service-stat-hive {
+    background: url("images/hive.png") no-repeat;
+}
+
+.service-stat-zookeeper {
+    background: url("images/zookeeper.png") no-repeat;
+}
+
+.service-stat-sqoop {
+    background: url("images/sqoop.png") no-repeat;
+}
+
+.service-stat-solr {
+    background: url("images/solr.png") no-repeat;
+}
+.service-stat-oozie {
+    background: url("images/oozie.png") no-repeat;
+}
+.service-stat-ambari_metric {
+    background: url("images/ambari_metric.png") no-repeat;
+}
+.service-stat-tez {
+    background: url("images/tez.png") no-repeat;
+}
+.service-stat-ranger {
+    background: url("images/ranger.png") no-repeat;
+}
+.service-stat-logsearch {
+    background: url("images/logsearch.png") no-repeat;
+}
