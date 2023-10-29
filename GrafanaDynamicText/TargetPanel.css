@@ -54,7 +54,7 @@ div {
     height: 18px;
     display: inline-block;
     vertical-align: text-bottom;
-    background: url("images/dotBullet.png") center no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/dotBullet.png?raw=true") center no-repeat;
 }
 
 .nodehost {
@@ -218,7 +218,7 @@ cluster-box .percent {
     vertical-align: middle;
     width: 22px;
     height: 15px;
-    background: url("images/dotBullet.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/cpu.png") no-repeat;
 }
 
 .host-info .mem i {
@@ -226,7 +226,7 @@ cluster-box .percent {
     vertical-align: middle;
     width: 12px;
     height: 15px;
-    background: url("images/dotBullet.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/memory.png") no-repeat;
 }
 
 .host-info .host-cpu-bar {
@@ -292,40 +292,40 @@ a:not([href]):not([tabindex]) {
 }
 
 .service-stat-hdfs {
-    background: url("images/hdfs.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/hdfs.png?raw=true") no-repeat;
 }
 
 .service-stat-yarn {
-    background: url("images/yarn.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/yarn.png?raw=true") no-repeat;
 }
 
 .service-stat-hive {
-    background: url("images/hive.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/hive.png?raw=true") no-repeat;
 }
 
 .service-stat-zookeeper {
-    background: url("images/zookeeper.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/zookeeper.png?raw=true") no-repeat;
 }
 
 .service-stat-sqoop {
-    background: url("images/sqoop.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/sqoop.png?raw=true") no-repeat;
 }
 
 .service-stat-solr {
-    background: url("images/solr.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/solr.png?raw=true") no-repeat;
 }
 .service-stat-oozie {
-    background: url("images/oozie.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/oozie.png?raw=true") no-repeat;
 }
 .service-stat-ambari_metric {
-    background: url("images/ambari_metric.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/ambari_metric.png?raw=true") no-repeat;
 }
 .service-stat-tez {
-    background: url("images/tez.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/tez.png?raw=true") no-repeat;
 }
 .service-stat-ranger {
-    background: url("images/ranger.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/ranger.png?raw=true") no-repeat;
 }
 .service-stat-logsearch {
-    background: url("images/logsearch.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/logsearch.png?raw=true") no-repeat;
 }
