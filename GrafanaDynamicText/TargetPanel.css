@@ -27,7 +27,7 @@ div {
 
 .cluster-type {
     font-size: 1em;
-    color: #444444;
+    color: #ffffff;
 }
 
 .host-os {
@@ -37,7 +37,8 @@ div {
 .monitoring-date {
     float: right;
     margin-right: 9px;
-    background: #eee;
+    background: #ffffff;
+    color: #050a15;
     padding: 3px 10px 3px 10px;
     margin-top: -6px;
     border-radius: 5px;
@@ -87,7 +88,7 @@ div {
 }
 
 .component-stat .concerning {
-    color: #ffa83e;
+    color: rgba(33, 224, 46, 0.68);
 }
 
 .component-stat {
@@ -99,17 +100,18 @@ div {
 }
 
 .activity {
+    color: #ffffff;
     opacity: 1;
 }
 
 .standby {
-    color: grey !important;
+    color: rgba(222, 222, 222, 0.56) !important;
     opacity: .5;
 }
 
 .nodehost [class^=host] {
     padding: 0 4px;
-    background-color: #dedede;
+    background-color: #475f93;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
@@ -121,7 +123,7 @@ div {
 
 .nodehost > div .value {
     font-size: 1em;
-    color: #323844;
+    color: #ffffff;
     margin-left: 10px;
 }
 
@@ -143,7 +145,7 @@ div {
 
 .host-info-box > div .value {
     font-size: 1em;
-    color: #202838;
+    color: #ffffff;
     margin-right: 5px;
 }
 
@@ -174,7 +176,7 @@ cluster-box .percent {
 }
 
 .percent .percent-bar {
-    background-color: #dedede;
+    background-color: rgba(222, 222, 222, 0.56);
 }
 
 .percent-bar > div {
@@ -193,7 +195,7 @@ cluster-box .percent {
     flex-direction: row;
     align-self: center;
     text-align: center;
-    color: #050a15;
+    color: #ffffff;
     font-size: 15px;
     line-height: 25px;
     margin: 7px 0 0 0;
@@ -218,7 +220,7 @@ cluster-box .percent {
     vertical-align: middle;
     width: 22px;
     height: 15px;
-    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/cpu.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/cpu.png?raw=true") no-repeat;
 }
 
 .host-info .mem i {
@@ -226,7 +228,7 @@ cluster-box .percent {
     vertical-align: middle;
     width: 12px;
     height: 15px;
-    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/memory.png") no-repeat;
+    background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/memory.png?raw=true") no-repeat;
 }
 
 .host-info .host-cpu-bar {
@@ -241,7 +243,8 @@ cluster-box .percent {
     transition-duration: 300ms;
 }
 
-td, th {
+td,
+th {
     font-size: 13px;
     font-family: 'Noto Sans', 'NotoSans-Regular', 'NotoSans-Medium', 'NotoSans-Bold';
 }
@@ -272,22 +275,22 @@ a:not([href]):not([tabindex]) {
 }
 
 .status-box.concerning {
-    color: black;
+    color: whitesmoke;
     background-color: #DDF5CA;
 }
 
 .status-box.warning {
-    color: black;
+    color: whitesmoke;
     background-color: #FBEFB5;
 }
 
 .status-box.critical {
-    color: black;
-    background-color: #FF0000;
+    color: whitesmoke;
+    background-color: rgba(246, 110, 110, 0.84);
 }
 
 .status-box.none {
-    color: black;
+    color: whitesmoke;
     background-color: #e2e2e2;
 }
 
@@ -314,18 +317,23 @@ a:not([href]):not([tabindex]) {
 .service-stat-solr {
     background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/solr.png?raw=true") no-repeat;
 }
+
 .service-stat-oozie {
     background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/oozie.png?raw=true") no-repeat;
 }
+
 .service-stat-ambari_metric {
     background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/ambari_metric.png?raw=true") no-repeat;
 }
+
 .service-stat-tez {
     background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/tez.png?raw=true") no-repeat;
 }
+
 .service-stat-ranger {
     background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/ranger.png?raw=true") no-repeat;
 }
+
 .service-stat-logsearch {
     background: url("https://github.com/jangByeongHui/Hadoop-Cluster-Grafana-Dashboard/blob/main/GrafanaDynamicText/images/logsearch.png?raw=true") no-repeat;
 }
